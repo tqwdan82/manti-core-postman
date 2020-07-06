@@ -1,0 +1,26 @@
+{
+    "timestamps": false,
+    "paranoid": false,
+    "columns": [
+        {
+            "columnName": "id",
+            "columnDataType": "UUID",
+            "isPrimaryKey": true
+        },
+        {
+            "columnName": "group",
+            "columnDataType": "STRING",
+            "isPrimaryKey": false
+        },
+        {
+            "columnName": "key",
+            "columnDataType": "STRING",
+            "isPrimaryKey": false
+        },
+        {
+            "columnName": "value",
+            "columnDataType": "STRING",
+            "isPrimaryKey": false
+        }
+    ]
+}
